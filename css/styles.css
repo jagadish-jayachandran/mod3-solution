@@ -30,25 +30,10 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-h2, h3{
-	text-align: center;
-}.container {
-  box-shadow: 0 0 50px #3F0C1F;
-  padding: 0px;
-}
+
 div.navbar-brand{
-margin-left: 15px;
+margin-left: 25px;
 }
-		
-
-navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: 0px;
-}
-
 #nav-list {
   margin-top: 10px;
   background-color: #CAEBF2;
@@ -61,24 +46,38 @@ navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 #nav-list a:hover {
   background: lawngreen;
   color: maroon;
+}		
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+
 }
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 0px;
+}
+
 /* END HEADER */
 
 
 /************Large Devices only ************/
 @media (min-width: 1200px){
 
-
 }
 
 /**********Medium Devices only ************/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+.navbar-collapse{
+  padding-bottom: 20px;
+}
 
 }
 
 /***********Small Devices only*******/
-@media (min-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
 
 
+}
+@media (min-width: 767px){
+  
 }
